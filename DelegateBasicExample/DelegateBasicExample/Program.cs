@@ -19,14 +19,20 @@ namespace DelegateBasicExample
             LogDel logTextToScreen, logTextToFile;
 
             logTextToScreen = new LogDel(log.LogTextToScreen);
-            logTextToScreen += log.LogTextToFile;
+            logTextToFile = new LogDel(log.LogTextToFile);
+            //combine two methods together for one variable 
+            LogDel multiLogDel = logTextToFile + logTextToScreen;
             Console.WriteLine("please enter your name");
             var name = Console.ReadLine();
 
-            logTextToScreen(name);
+            LogText(logTextToFile, name);
             Console.ReadKey();
         }
 
+        static void LogText(LogDel logDel, string text) 
+        {
+            logDel(text);
+        }
         
     }
 
