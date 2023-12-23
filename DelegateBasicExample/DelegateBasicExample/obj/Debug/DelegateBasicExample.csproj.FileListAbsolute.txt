@@ -1,0 +1,7 @@
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\bin\Debug\DelegateBasicExample.exe.config
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\bin\Debug\DelegateBasicExample.exe
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\bin\Debug\DelegateBasicExample.pdb
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\obj\Debug\DelegateBasicExample.csproj.AssemblyReference.cache
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\obj\Debug\DelegateBasicExample.csproj.CoreCompileInputs.cache
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\obj\Debug\DelegateBasicExample.exe
+C:\Users\27571\OneDrive\桌面\code\DelegateBasicExample\DelegateBasicExample\obj\Debug\DelegateBasicExample.pdb
