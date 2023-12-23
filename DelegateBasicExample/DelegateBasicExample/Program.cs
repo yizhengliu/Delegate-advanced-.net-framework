@@ -16,11 +16,14 @@ namespace DelegateBasicExample
         {
             Log log = new Log();
 
-            LogDel logdel = new LogDel(log.LogTextToScreen);
+            LogDel logTextToScreen, logTextToFile;
+
+            logTextToScreen = new LogDel(log.LogTextToScreen);
+            logTextToScreen += log.LogTextToFile;
             Console.WriteLine("please enter your name");
             var name = Console.ReadLine();
 
-            logdel(name);
+            logTextToScreen(name);
             Console.ReadKey();
         }
 
